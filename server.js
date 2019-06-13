@@ -22,7 +22,7 @@ if(process.env.NODE_ENV === 'production') {
         res.sendFile(path.resolve(__dirname, 'client', 'build' , 'index_html'));
     });
 }
-
+     
 // connect to Mongo
 mongoose.connect("mongodb+srv://Marvellous:144301Abc@cluster0-hyydk.mongodb.net/test?retryWrites=true&w=majority",
 { useNewUrlParser: true } )
